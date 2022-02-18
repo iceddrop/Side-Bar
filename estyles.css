@@ -1,0 +1,123 @@
+section {background-color:#aab6c4;
+        color:rgb(3, 3, 107) ;
+        margin: 0%;
+        padding: 0%;
+        display: block;
+        position: relative;
+        padding-bottom: 0%;
+        text-align: left;
+        ;
+        
+}
+
+.nav { overflow: hidden;
+    background: rgb(3, 3, 107);
+    margin-top: 0px;
+    width: 100%;
+    margin: 0% ;
+    padding-top: 0%;
+
+}
+
+.nav a{
+    /* float: right; */
+    float: left;
+    color:#fecc50;
+    text-align: center;
+    text-decoration: none;
+    font-weight:;
+    text-transform: none;
+    padding: 20px 16px;
+    font-size: larger;
+    display:flex;
+}
+
+.page {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+
+.guest {
+position: relative;
+left: 700px;
+color:rgb(238, 228, 89); ;
+}
+
+.content{
+background-color: rgb(233, 230, 230);
+height: 800px;
+width: 900px;
+position: relative;
+left: 350px;
+padding: 0px;
+margin: 0px;
+margin-left: 0%;
+
+}
+
+.details {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #000;
+    padding-top: 25px;
+    padding-left: 0px;
+    margin: 0px 0px 30px 0px;
+    position: relative;
+    left: 42px;
+}
+.bullet {
+    color: rgb(76, 99, 170);
+    list-style: none;
+    size: 5px;
+    line-height: 30px;
+
+}
+ul {
+    list-style: none;
+    font-size: 18px;
+
+}
+
+.nav-bar{
+    position: relative;
+    left: 60px;
+
+}
+span {color: white;}
+
+.content.image {
+    width: 120px;
+    float: right;
+    box-shadow: 0px 0px 0px 3px #000;
+    margin-right: 200px;
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    border: 0px;
+    
+    position: relative;
+    left: 0px;
+    margin: auto;
+    margin-top: 25px;
+}
+.student {
+    position:relative;
+    left: 50px;
+   font-size:30px;
+
+}
+
+.img-profile{
+    width: 130px;
+	float: right;
+	box-shadow: 0px 0px 0px 3px #000;
+	margin-right: 200px;
+    height: 200px;
+    margin-top:0px;
+}
+
+ 
