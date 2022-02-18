@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 0.5rem;
+}
+.fa-bars{
+    color: hs;
+    margin-left: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.fa-bars:hover{
+    color:hsl(211,12%,48%);
+    animation: rotate 1s ease infinite; 
+}
+@keyframes rotate{
+    0%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.grey{
+    color:hsl(132,6%,83%);
+}
+.grey:hover{
+    color:hsl(132,6%,83%);
+}
+.sidebar-section{
+    background-color: hsl(210, 93%, 95%);
+    height: 100%; /* 100% Full-height */
+    width: 0px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color:hsl(210, 93%, 95%); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */ 
+}
+.menu-container{
+    border: 1px silver solid;
+    border-radius: 3px;
+}
+h2{
+    color: gold;
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+}
+ul{
+    list-style: none;
+}
+ul a{
+    padding: 2px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-size: 0.7rem;
+}
+.sidebar-section a:hover {
+    text-decoration: none;
+}
+.sidebar-section .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.closebtn:hover{
+    text-decoration: none;
+}
+button{
+    background-color: hsl(210, 93%, 95%)!important;
+    border: none!important;
+    color: black!important;
+    font-size: 00.5rem!important;
+    padding: 2px!important;
+}
+.menu-container .dropdown-menu{
+    position: absolute !important;
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .title{
+        font-size:2.5rem ;
+    }
+    ul a{
+        font-size: 2rem;
+    }
+    ul button{
+        font-size: 2rem !important;
+    }
+    li{
+        padding-left: 10px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .title{
+        font-size:2.5rem ;
+    }
+    ul a{
+        font-size: 2rem;
+    }
+    ul button{
+        font-size: 2rem !important;
+    }
+    li{
+        padding-left: 10px;
+    } 
+}
+@media only screen and (min-width:1200px) and (max-width:1441px){
+    .title{
+        font-size:2.5rem ;
+    }
+    ul a{
+        font-size: 2rem;
+    }
+    ul button{
+        font-size: 2rem !important;
+    }
+    li{
+        padding-left: 10px;
+    } 
+}
